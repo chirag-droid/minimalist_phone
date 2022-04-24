@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/start_of_section_separator" android:background="@color/colorText" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/mSwitchThemeChecked" android:id="@id/dialog_app_context_menu_in_app_time_reminder_active_switch" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_context_menu_in_app_time_reminder_active_btn" android:paddingHorizontal="15.0dip" android:paddingVertical="15.0dip" />
+    <TextView android:id="@id/add_favourite_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_add_to_favourites" />
+    <TextView android:id="@id/remove_favourite_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_remove_from_favourites" />
+    <TextView android:id="@id/block_app_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_block_app_btn" />
+    <TextView android:id="@id/rename_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_rename_app" />
+    <TextView android:id="@id/hide_unhide_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_hide_app" />
+    <TextView android:id="@id/uninstall_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_uninstall" />
+    <TextView android:id="@id/app_info_text" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_app_info" />
+</LinearLayout>

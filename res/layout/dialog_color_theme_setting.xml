@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView_parent_dialog_color_theme_setting" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title_dialog_color_theme" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sid_settings_item_launcher_theme" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/start_of_section_separator_dialog_color_theme" android:background="@color/colorText" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toBottomOf="@id/title_dialog_color_theme" />
+        <GridLayout android:id="@id/grid_layout_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_dialog_color_theme">
+            <FrameLayout android:id="@id/frameLayout_background_theme1_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme1_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme2_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme2_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme3_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme3_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme4_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme4_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme5_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme5_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme6_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme6_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme7_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme7_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme8_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <TextView android:id="@id/textView_theme8_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+        </GridLayout>
+        <FrameLayout android:id="@id/frameLayout_background_follow_system_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:layout_constraintEnd_toEndOf="@id/grid_layout_dialog_color_theme" app:layout_constraintStart_toStartOf="@id/grid_layout_dialog_color_theme" app:layout_constraintTop_toBottomOf="@id/grid_layout_dialog_color_theme">
+            <TextView android:id="@id/textView_follow_system_dialog_color_theme" android:background="@drawable/button_background_wripple_transparend_round_corners" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_launcher_theme_system_setting" android:paddingHorizontal="8.0dip" android:paddingVertical="5.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout_custom_section_dialog_color_theme" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/frameLayout_background_follow_system_dialog_color_theme">
+            <TextView android:id="@id/textView_custom_section_dialog_color_theme" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_launcher_theme_custom" android:layout_weight="1.0" android:paddingHorizontal="15.0dip" android:paddingVertical="5.0dip" />
+            <ImageView android:id="@id/expand_arrow_image_view_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_arrow_expand" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constrainLayout_custom_section_content_dialog_color_theme" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/linearLayout_custom_section_dialog_color_theme">
+            <FrameLayout android:id="@id/frameLayout_background_theme_custom_night_yes_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:layout_constraintBottom_toTopOf="@id/frameLayout_background_theme_custom_night_no_dialog_color_theme" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/colorPickerView_dialog_color_theme_setting">
+                <TextView android:textColor="@color/alwaysWhite" android:id="@id/textView_theme_custom_night_yes_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frameLayout_background_theme_custom_night_no_dialog_color_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:layout_constraintBottom_toBottomOf="@id/colorPickerView_dialog_color_theme_setting" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/frameLayout_background_theme_custom_night_yes_dialog_color_theme">
+                <TextView android:textColor="@color/alwaysBlack" android:id="@id/textView_theme_custom_night_no_dialog_color_theme" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sid_color_theme_demo_text" />
+            </FrameLayout>
+            <com.skydoves.colorpickerview.ColorPickerView android:id="@id/colorPickerView_dialog_color_theme_setting" android:layout_width="0.0dip" android:layout_height="200.0dip" android:layout_margin="25.0dip" app:actionMode="always" app:debounceDuration="50" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/frameLayout_background_theme_custom_night_yes_dialog_color_theme" app:layout_constraintTop_toTopOf="parent" app:preferenceName="ColorPickerView" />
+            <com.skydoves.colorpickerview.sliders.BrightnessSlideBar android:id="@id/brightnessSlider_dialog_color_theme_setting" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/frameLayout_background_theme_custom_night_yes_dialog_color_theme" app:layout_constraintTop_toBottomOf="@id/colorPickerView_dialog_color_theme_setting" app:selector_BrightnessSlider="@drawable/wheel" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Developer menu" />
+    <View android:background="@color/colorText" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:id="@id/survey_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Survey dialog" />
+    <TextView android:id="@id/review_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Review dialog" />
+    <TextView android:id="@id/recommend_to_friend_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Recommend to friend dialog" />
+    <TextView android:id="@id/set_wallpaper_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Set wallpaper dialog" />
+    <TextView android:id="@id/buy_full_version_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Buy full version dialog" />
+    <TextView android:id="@id/thank_you_dialog_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Thank you dialog" />
+    <TextView android:id="@id/show_toast_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show toast" />
+    <TextView android:id="@id/show_snack_bar_developer_menu" android:padding="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show snack bar" />
+</LinearLayout>

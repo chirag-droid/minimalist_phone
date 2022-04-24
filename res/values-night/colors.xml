@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#ff000000</color>
+    <color name="colorLineNotSelected">#ff666666</color>
+    <color name="colorSurfaceGrayedOut">#ff222222</color>
+    <color name="colorSurfaceSelected">#ff555555</color>
+    <color name="colorSwitchTrackChecked">#ffffffff</color>
+    <color name="colorSwitchTrackNotChecked">#ff333333</color>
+    <color name="colorText">#ffffffff</color>
+    <color name="colorTextGreyedOut">#ffcccccc</color>
+</resources>

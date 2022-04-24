@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.qqlabs.minimalistlauncher" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" localeConfig="@xml/locales_config" android:name="com.qqlabs.minimalistlauncher.app.LauncherApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppThemeMedium">
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.billing.BuyFullVersionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.inapptimereminder.InAppTimeReminderPermissionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.inapptimereminder.InAppTimeReminderPermissionFromIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.inapptimereminder.InAppTimeReminderSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.initial.PaywallActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.initial.IntroActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.initial.SetDefaultLauncherActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.settings.ui.settings.HomeScreenIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.initial.WaitForRemoteConfigActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.settings.ui.settings.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.hideapp.HiddenAppsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.blockapp.BlockAppActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.blockapp.ShowAppBlockedActivity" android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.notifications.NotificationManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.monochrome.MonochromeModeIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.qqlabs.minimalistlauncher.ui.monochrome.MonochromeModeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:exported="true" android:launchMode="singleTask" android:name="com.qqlabs.minimalistlauncher.ui.MainActivity" android:screenOrientation="portrait" android:stateNotNeeded="true" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:name="com.qqlabs.minimalistlauncher.ui.FakeLauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.qqlabs.minimalistlauncher.ui.settings.ui.settings.RecommendToFriend$RecommendToFriendResultBroadcastReceived"/>
+        <receiver android:exported="false" android:name="com.qqlabs.minimalistlauncher.ui.util.setupReminder.RemindSettingMinimalistPhoneBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:label="@string/sid_notification_manager_title_settings" android:name="com.qqlabs.minimalistlauncher.ui.notifications.NotificationManagerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:label="@string/sid_monochrome_settings_title" android:name="com.qqlabs.minimalistlauncher.ui.monochrome.MonochromeModeService"/>
+        <service android:label="@string/sid_in_app_time_reminder_settings_title" android:name="com.qqlabs.minimalistlauncher.ui.inapptimereminder.InAppTimeReminderService"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="11003"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.qqlabs.minimalistlauncher.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.qqlabs.minimalistlauncher.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="4.1.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+    </application>
+</manifest>

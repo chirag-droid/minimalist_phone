@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_name">minimalist phone</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="com.crashlytics.android.build_id">7f3f7857ed9b4f61bdfd3a0f1467bf2f</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="default_web_client_id">686636122116-sb5qa58be6oem0aa42b23becjmigimbb.apps.googleusercontent.com</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="firebase_database_url">https://minimalist-launcher.firebaseio.com</string>
+    <string name="gcm_defaultSenderId">686636122116</string>
+    <string name="google_api_key">AIzaSyDss2edD74eRM737b9btJoyQq9-3xohRbs</string>
+    <string name="google_app_id">1:686636122116:android:895d0e9c7e789274cb3551</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDss2edD74eRM737b9btJoyQq9-3xohRbs</string>
+    <string name="google_storage_bucket">minimalist-launcher.appspot.com</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="label">Label</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0.0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1.0)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0.0, 0.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0.0, 0.0, 0.0, 1.0)</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="project_id">minimalist-launcher</string>
+    <string name="search_menu_title">Search</string>
+    <string name="sid_activate_in_app_time_remider">Activate in-app time reminder</string>
+    <string name="sid_activate_in_app_time_remider_for_app_blocker">Feature must be active in order for the app-blocker to work.</string>
+    <string name="sid_activate_now_btn">Activate now</string>
+    <string name="sid_active_apps_setting_description">Apply to following apps</string>
+    <string name="sid_add_favourite_tutorial_hint">"2/4 Add your first favorite app now. Choose it carefully, don't add any app you don't want to spend too much time on.
+
+Press and hold on one app in the list."</string>
+    <string name="sid_add_to_favourites">Add to favorites</string>
+    <string name="sid_app_info">App info</string>
+    <string name="sid_app_is_blocked_button_continue">Close</string>
+    <string name="sid_app_is_blocked_text">"You have blocked %s, remember?
+
+It was most likely for a good reason, so hold on. Your digital detox is in progress."</string>
+    <string name="sid_app_is_blocked_text_no_app_name">"You have blocked this app, remember?
+
+It was most likely for a good reason, so hold on. Your digital detox is in progress."</string>
+    <string name="sid_app_is_blocked_title">Ouch!</string>
+    <string name="sid_auto_open_keyboard">Automatically open keyboard</string>
+    <string name="sid_auto_open_keyboard_desc">Automatically open keyboard on page with all apps</string>
+    <string name="sid_auto_open_keyboard_tutorial_text">Do you want the keyboard to open automatically next time? You can change this anytime in the settings.</string>
+    <string name="sid_back_btn">Back</string>
+    <string name="sid_basic_version">You are using the basic version.</string>
+    <string name="sid_billing_not_available_content">Make sure you have the last version of Google Play Services and that you are signed into the Google Play Store.</string>
+    <string name="sid_billing_not_available_title">Billing not available</string>
+    <string name="sid_block_app_12_hours">12 hours</string>
+    <string name="sid_block_app_24_hours">24 hours</string>
+    <string name="sid_block_app_3_days">3 days</string>
+    <string name="sid_block_app_48_hours">48 hours</string>
+    <string name="sid_block_app_4_hours">4 hours</string>
+    <string name="sid_block_app_4_hours_short">4h</string>
+    <string name="sid_block_app_7_days">7 days</string>
+    <string name="sid_block_app_7_days_short">7d</string>
+    <string name="sid_block_app_8_hours">8 hours</string>
+    <string name="sid_block_app_btn">Block</string>
+    <string name="sid_block_app_explainer" formatted="false">"You spent %s on %s in the last 7 days. Do you need a break but don't want to uninstall this app? Try blocking it for up to 7 days."</string>
+    <string name="sid_block_app_for_X_time" formatted="false">"Block %s for 
+
+%s"</string>
+    <string name="sid_block_app_hint">"4/4 You can also block any app for up to 7 days. Give it a try.
+
+Press and hold on one app in the list."</string>
+    <string name="sid_block_app_new_feature">"New feature available: Block any app for up to 7 days. Give it a try.
+
+Press and hold on one app in the list."</string>
+    <string name="sid_block_app_screen_title">Block %s</string>
+    <string name="sid_block_now_btn">Start blocking now</string>
+    <string name="sid_buy_1month_top_label">MONTH</string>
+    <string name="sid_buy_1month_top_label_number">1</string>
+    <string name="sid_buy_1year_popular_label">POPULAR</string>
+    <string name="sid_buy_1year_top_label">MONTHS</string>
+    <string name="sid_buy_1year_top_label_number">12</string>
+    <string name="sid_buy_one_time_bottom_label">No Recurring Payment</string>
+    <string name="sid_buy_one_time_top_label">"ONE
+TIME PURCHASE"</string>
+    <string name="sid_buy_pro_annual_hint">*Billed annually. Price per year %s</string>
+    <string name="sid_buy_pro_btn_label_month">Upgrade for %s/month*</string>
+    <string name="sid_buy_pro_btn_label_year">Upgrade for %s/year</string>
+    <string name="sid_buy_pro_details">"•Custom color themes 
+
+•Unlimited number of favorite apps 
+
+•Unlimited number of renamed apps 
+
+•Unlimited number of hidden apps 
+
+•Support sustainable development of your favorite home screen"</string>
+    <string name="sid_buy_pro_experience">93% of users reported spending less time on their phones after three days of using the minimalist phone.</string>
+    <string name="sid_buy_pro_intro">Do you enjoy minimalist phone? Upgrade to full version to access all benefits.</string>
+    <string name="sid_buy_pro_intro_paywall">Upgrade to full version to access all benefits.</string>
+    <string name="sid_buy_pro_label_month">%s/M</string>
+    <string name="sid_buy_pro_recurring_hint">Recurring billing. Cancel anytime on Google Play.</string>
+    <string name="sid_buy_pro_title">Get the full version now</string>
+    <string name="sid_charging_animation">Charging animation</string>
+    <string name="sid_chosen_apps_to_block_title">Also block</string>
+    <string name="sid_clear_dismissed_notifications">Clear all</string>
+    <string name="sid_color_theme_demo_text">Ab</string>
+    <string name="sid_contact_cancel">Cancel</string>
+    <string name="sid_contact_support_issue_description">Describe your issue here.</string>
+    <string name="sid_contact_support_send_as_email">Send as email</string>
+    <string name="sid_contact_support_subject">Subject: %s</string>
+    <string name="sid_contact_support_title">Contact support</string>
+    <string name="sid_context_menu_in_app_time_reminder_active_btn">Time reminder active</string>
+    <string name="sid_context_menu_in_app_time_reminder_deactivated_btn">Time reminder deactivated</string>
+    <string name="sid_date_format_system">"%1$s
+(set by your device preferences)"</string>
+    <string name="sid_disabled">Disabled</string>
+    <string name="sid_do_not_show_again">"Don't show again"</string>
+    <string name="sid_email_body_content_support">(Describe your issue here)</string>
+    <string name="sid_email_body_text">"Hello minimalist phone Team,
+
+"</string>
+    <string name="sid_email_client_chooser_title">Send email with</string>
+    <string name="sid_email_instructions_btn">Send instructions to email</string>
+    <string name="sid_email_subject_feedback">Feedback</string>
+    <string name="sid_email_subject_setting_launcher">Setting minimalist phone as default home screen</string>
+    <string name="sid_email_subject_usage_stats">Granting usage statistics permission</string>
+    <string name="sid_enable_notification_access_btn">Enable notification access</string>
+    <string name="sid_enable_system_overlay_permission_btn">Open overlay settings</string>
+    <string name="sid_enable_usage_stats_permission_btn">Open usage permission setting</string>
+    <string name="sid_enabled">Enabled</string>
+    <string name="sid_filtered_notifications_empty">Filtered notifications from apps that are not allowed will appear here.</string>
+    <string name="sid_finish">Finish</string>
+    <string name="sid_grant_usage_permission_contact_support">Are you having trouble granting usage permission? <u>Contact support via email</u>.</string>
+    <string name="sid_hidden_apps_empty">"You didn't hide any apps yet. To hide an app long press on app in the all apps list and select \"Hide\""</string>
+    <string name="sid_hidden_apps_menu">Hidden apps</string>
+    <string name="sid_hide">Hide</string>
+    <string name="sid_hide_app">Hide</string>
+    <string name="sid_hide_app_hint">"3/4 Is there any app you want to spend less time on? Try hiding it. 
+
+Don't worry, you will still be able to access it from the menu, you will just need to be more mindful about it. Press and hold on one app in the list."</string>
+    <string name="sid_hide_hint_arrow">-></string>
+    <string name="sid_hide_hint_intro">You can find all your hidden apps in</string>
+    <string name="sid_hide_ongoing_notifications_active">Hide ongoing notifications</string>
+    <string name="sid_hide_ongoing_notifications_hint">You may need to restart your phone to see ongoing notifications again after hiding them.</string>
+    <string name="sid_home_screen_tutorial_button"><u>See how your home screen works</u></string>
+    <string name="sid_in_app_time_reminder_active_btn">In-app time reminder active</string>
+    <string name="sid_in_app_time_reminder_deactivated_btn">In-app time reminder deactivated</string>
+    <string name="sid_in_app_time_reminder_leave_app">Take me out of here</string>
+    <string name="sid_in_app_time_reminder_more_time">More time</string>
+    <string name="sid_in_app_time_reminder_notification_subtitle">Active</string>
+    <string name="sid_in_app_time_reminder_set_timer_intro">"In-app time reminder will help you spend only as much time on this app as you want. Set your intended time now and get notified once it runs out. 
+
+This can help you not to get stuck in apps, especially with those that have endless scroll feeds or game levels."</string>
+    <string name="sid_in_app_time_reminder_set_timer_question">How much time do you want to spend on %s now?</string>
+    <string name="sid_in_app_time_reminder_settings_title">In-app time reminder</string>
+    <string name="sid_in_app_time_reminder_time_passed">The time you have decided to spend on %s has run out.</string>
+    <string name="sid_intro_circle">Circle shows your remaining battery capacity.</string>
+    <string name="sid_intro_circle_title">Battery capacity</string>
+    <string name="sid_intro_press_circle">Tap on clock to see your alarms and timers.</string>
+    <string name="sid_intro_press_circle_title">Alarms and timers</string>
+    <string name="sid_intro_press_on_list">Customize your favorite apps. Long press on app in the list to add it to favorites.</string>
+    <string name="sid_intro_press_on_list_title">Add app to favorites</string>
+    <string name="sid_intro_step0_text">"This custom home screen was designed to improve your focus and reduce the time you spend on your phone. How does it work?
+
+Bear with us - we promise it’ll be interesting."</string>
+    <string name="sid_intro_step0_title">Welcome to your minimalist phone</string>
+    <string name="sid_intro_step1_header">Your smartphone can quickly become addictive in several ways:</string>
+    <string name="sid_intro_step1_subtitle">The typical app icon is colorful. It’s designed to grab your attention so that you open the app.</string>
+    <string name="sid_intro_step1_text">"Consequently, your brain learns that opening colorful icons leads to \"interesting\" (stimulating) content.
+
+Eventually, you open apps without conscious thought as your brain craves stimulation - wondering later why you’re in an app you never planned to open."</string>
+    <string name="sid_intro_step1_title">Icons</string>
+    <string name="sid_intro_step2_subtitle">Apps are displayed only as a text using the app’s name.</string>
+    <string name="sid_intro_step2_text">This prevents mindless app usage by requiring you to consciously identify the app before opting to open it.</string>
+    <string name="sid_intro_step2_title">No icons on minimalist phone</string>
+    <string name="sid_intro_step3_text">Social media apps use AI to curate content that matches your exact interests, with one goal in mind - to make you spend as much time in the app as possible.</string>
+    <string name="sid_intro_step3_title">Endless scroll feeds</string>
+    <string name="sid_intro_step4_subtitle">"Don't get lost in an endless scroll. When opening an addictive app, decide how much time you want to spend on it, and be reminded once that time is up."</string>
+    <string name="sid_intro_step4_text">The in-app time reminder is active by default for games, social media, and similar apps. You can adjust the setting yourself.</string>
+    <string name="sid_intro_step4_title">In-app time reminder is here to help</string>
+    <string name="sid_intro_step5_subtitle">Notification are highly invasive and can destroy your focus. They encourage you to spend more time on your phone by regularly asking you to open the app because \"something interesting\" happened.</string>
+    <string name="sid_intro_step5_text">minimalist phone contains a notification filter that you can activate. You will not miss any notifications - they will just be filtered and stored for later.</string>
+    <string name="sid_intro_step5_title">Notifications</string>
+    <string name="sid_intro_step6_subtitle">"Expect to feel the effects of living a more intentional and less distracted life right away. After adjusting to the minimalist phone, many people never go back.
+
+
+Try it yourself for at least 3 days and form your own opinion!"</string>
+    <string name="sid_intro_step6_text">"Next: we need a few permissions to make minimalist phone work the way it's meant to ➔"</string>
+    <string name="sid_intro_step6_title">How does using the minimalist phone app feel?</string>
+    <string name="sid_intro_swipe_down">Swipe down to see notifications.</string>
+    <string name="sid_intro_swipe_down_title">Notifications</string>
+    <string name="sid_intro_swipe_left">Swipe left to see all your apps.</string>
+    <string name="sid_intro_swipe_left_title">All apps</string>
+    <string name="sid_intro_swipe_up">Swipe up to open search.</string>
+    <string name="sid_intro_swipe_up_title">Search</string>
+    <string name="sid_intro_welcome_description">"This custom home screen was designed to help you reduce your screen time, especially with addictive apps like social media or game apps. 
+
+We will support you on your dopamine detox journey starting with your phone’s home screen, but it is your responsibility to take back control of your phone usage. Welcome to your new life."</string>
+    <string name="sid_join_us_on_reddit">Join us on Reddit</string>
+    <string name="sid_later">Later</string>
+    <string name="sid_launcher_theme_black">Black</string>
+    <string name="sid_launcher_theme_custom">Custom theme</string>
+    <string name="sid_launcher_theme_system_setting">Use system theme</string>
+    <string name="sid_launcher_theme_white">White</string>
+    <string name="sid_logs_requested">Request received. Please stop and start the app via device settings.</string>
+    <string name="sid_mindful_reminder_1">"Hint: Consider turning your phone to silent - forever. This can further reduce your screen time and distractions from your device.
+
+Don't worry, if it's important you can call back or they will call you again. Messages can be replied anytime later."</string>
+    <string name="sid_monochrome_active_btn">Monochrome mode active</string>
+    <string name="sid_monochrome_deactivated_btn">Monochrome mode deactivated</string>
+    <string name="sid_monochrome_mode_email_body_activation">"Follow instructions from this link: 
+ %s"</string>
+    <string name="sid_monochrome_mode_email_subject_activation">minimalist phone: Monochrome mode activation instructions</string>
+    <string name="sid_monochrome_notification_subtitle">Active for selected apps</string>
+    <string name="sid_monochrome_settings_title">Monochrome mode</string>
+    <string name="sid_monochrome_setup_instructions">"To activate monochrome mode the minimalist phone application needs a special permission that cannot be granted directly on the phone — but only from a PC. 
+
+The activation process takes approximately 10 minutes and requires basic PC knowledge."</string>
+    <string name="sid_monochrome_setup_intro">"Color influences how you interact with your apps and can extend the time you spend on your phone.
+
+This effect can be especially noticed with apps that are highly engaging such as social media and image sharing platforms. Viewing these apps in monochrome (single color) can help you reduce your screen time.
+
+Once activated you will be able to control monochrome mode on a per-app basis."</string>
+    <string name="sid_new_feature_available">New feature available</string>
+    <string name="sid_next">Next</string>
+    <string name="sid_no_email_client_available">There are no email clients installed.</string>
+    <string name="sid_notification_bar_expand_not_possible">"Your phone doesn't support expanding notification bar with gestures, but you can still access notifications by swiping down from the top edge of your screen."</string>
+    <string name="sid_notification_manager_activation_explanation">Activate and minimize your distractions.</string>
+    <string name="sid_notification_manager_active_btn">Notification filter active</string>
+    <string name="sid_notification_manager_deactivated_btn">Notification filter deactivated</string>
+    <string name="sid_notification_manager_intro">"Notifications are a highly invasive element forcing you to switch tasks and interrupting any complex thoughts. They also cause addictive behavior.
+
+Activate this notification filter to minimize distractions.
+
+You will still be able to see the filtered notifications and stay in full control of what is displayed and what is not.
+
+1) Press button and find minimalist phone 
+
+2)Allow notification access"</string>
+    <string name="sid_notification_manager_title">Notifications</string>
+    <string name="sid_notification_manager_title_settings">Notification filter</string>
+    <string name="sid_notification_permission_explanation">Access to your notifications is required for notification filter to work.</string>
+    <string name="sid_notification_setting_description">Allow notifications from</string>
+    <string name="sid_ok">OK</string>
+    <string name="sid_ongoing_notification_channel_description">Notification filter information</string>
+    <string name="sid_ongoing_notification_channel_name">Notification filter</string>
+    <string name="sid_ongoing_notification_content">%s notifications cleared</string>
+    <string name="sid_ongoing_notification_over_display_limit">More than 99</string>
+    <string name="sid_ongoing_notification_title">Notification filter active</string>
+    <string name="sid_ongoing_notifications_not_filtered_hint">Ongoing notifications will not be filtered.</string>
+    <string name="sid_open_app">Open</string>
+    <string name="sid_open_device_settings">Device settings</string>
+    <string name="sid_opening_search">Opening search…</string>
+    <string name="sid_other_apps_to_block">Other apps you may want to block (screen time in the last 7 days)</string>
+    <string name="sid_permission_can_be_remove_later">You can remove the permission anytime later.</string>
+    <string name="sid_question_activate_wallpaper_auto_setting">"For the best experience we recommend setting a matching lock screen background. Do you want to activate this feature now? 
+
+This will replace your current lock screen background."</string>
+    <string name="sid_recently_installed_apps">Recently installed</string>
+    <string name="sid_recommend_to_a_friend">Recommend to a friend</string>
+    <string name="sid_recommendation_dialog_text">Did minimalist phone help you? Share it with your friend to show that you care.</string>
+    <string name="sid_recommendation_dialog_title">Recommend minimalist phone</string>
+    <string name="sid_remove_from_favourites">Remove from favorites</string>
+    <string name="sid_rename_app">Rename</string>
+    <string name="sid_rename_app_title">Rename %s</string>
+    <string name="sid_review_dialog_description">If you are enjoying minimalist phone (and we hope you are!), consider rating us 5 stars on Google Play.</string>
+    <string name="sid_review_dialog_negative_btn">No, thank you</string>
+    <string name="sid_review_dialog_positive_btn">Rate us!</string>
+    <string name="sid_review_dialog_title">Recommend minimalist phone</string>
+    <string name="sid_search_app_tutorial_edit_text_hint">Start typing here…</string>
+    <string name="sid_search_app_tutorial_hint">"1/4 No more mindless scrolling through a mess of app icons where you could open an app you didn't want to open.
+
+Instead: 
+1) Think about the app you really want to open. 
+2) Start typing app's name."</string>
+    <string name="sid_set_as_default_launcher_action">SET AS DEFAULT HOME SCREEN</string>
+    <string name="sid_set_as_default_launcher_action_open_settings">OPEN SETTINGS</string>
+    <string name="sid_set_as_default_launcher_contact_support">Are you having trouble setting default home screen? <u>Contact support via email</u>.</string>
+    <string name="sid_set_as_default_launcher_general_settings">"CHOOSE APPS-> DEFAULT APPS-> 
+HOME APP OR LAUNCHER AND SELECT MINIMALIST PHONE"</string>
+    <string name="sid_set_as_default_launcher_general_settings_oppo">"CHOOSE APP MANAGEMENT-> 
+DEFAULT APP-> 
+HOMESCREEN AND SELECT MINIMALIST PHONE"</string>
+    <string name="sid_set_as_default_launcher_intro_text">Last step before you can start using minimalist phone - set it as your default home screen.</string>
+    <string name="sid_set_as_default_launcher_normal">"Instructions:
+
+1) Push button and choose \"HOME APP\" or \"HOME SCREEN\"
+
+2) Select MINIMALIST PHONE"</string>
+    <string name="sid_set_wallpaper_title">Automatically set matching lock screen background</string>
+    <string name="sid_settings_contact_support_via_email">Contact support via email</string>
+    <string name="sid_settings_get_pro_version">Get full version</string>
+    <string name="sid_settings_group_display_and_visual">Display</string>
+    <string name="sid_settings_group_gestures">Gestures</string>
+    <string name="sid_settings_group_home_screen">Home screen</string>
+    <string name="sid_settings_group_more">More</string>
+    <string name="sid_settings_item_camera_quick_access">Quick camera access</string>
+    <string name="sid_settings_item_date_format">Date format</string>
+    <string name="sid_settings_item_font_family">Font</string>
+    <string name="sid_settings_item_font_family_architect">Architect</string>
+    <string name="sid_settings_item_font_family_condensed">Condensed</string>
+    <string name="sid_settings_item_font_family_default">Default</string>
+    <string name="sid_settings_item_font_family_goldman">Goldman</string>
+    <string name="sid_settings_item_font_family_light">Light</string>
+    <string name="sid_settings_item_font_family_medium">Medium</string>
+    <string name="sid_settings_item_font_family_monospace">Monospace</string>
+    <string name="sid_settings_item_font_family_thin">Thin</string>
+    <string name="sid_settings_item_font_size">Font size</string>
+    <string name="sid_settings_item_font_size_extra_large">Extra large</string>
+    <string name="sid_settings_item_font_size_large">Large</string>
+    <string name="sid_settings_item_font_size_medium">Medium</string>
+    <string name="sid_settings_item_font_size_small">Small</string>
+    <string name="sid_settings_item_launcher_theme">Color theme</string>
+    <string name="sid_settings_item_phone_quick_access">Quick phone dialer access</string>
+    <string name="sid_settings_item_restore_purchases">Restore purchases</string>
+    <string name="sid_settings_item_show_version">Version</string>
+    <string name="sid_settings_item_swipe_down_to_expand_notifications">Swipe down to see notifications</string>
+    <string name="sid_settings_item_swipe_up_to_open_search">Swipe up to open search</string>
+    <string name="sid_settings_item_time_format">Time format</string>
+    <string name="sid_settings_show_tutorial">Show tutorial</string>
+    <string name="sid_settings_title">Settings</string>
+    <string name="sid_setup_reminder_notification_channel_description">minimalist phone setup reminder</string>
+    <string name="sid_setup_reminder_notification_channel_name">Reminder</string>
+    <string name="sid_setup_reminder_notification_content_text">minimalist phone can help you use your phone less</string>
+    <string name="sid_setup_reminder_notification_title">Complete setup and get your focus back</string>
+    <string name="sid_share_app_text">I found an easy way to spend less time on my phone, check out the minimalist phone app for Android https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher</string>
+    <string name="sid_show">Show</string>
+    <string name="sid_survey_text">We would love to hear what you think. Please give us your feedback.</string>
+    <string name="sid_survey_title">Satisfaction survey</string>
+    <string name="sid_system_overlay_intro">"minimalist phone needs permission to display content over other apps to allow the in-app time reminder to work. 
+
+1) Press button below and find minimalist phone 
+
+2) Allow display over other apps"</string>
+    <string name="sid_tab_dismissed_notifications">Filtered notifications</string>
+    <string name="sid_tab_notification_settings">Settings</string>
+    <string name="sid_terms_and_conditions_intro">By continuing you agree to <a href="https://www.minimalistphone.com/terms-conditions">Terms of Service</a> and <a href="https://www.minimalistphone.com/privacy-policy">Privacy Policy</a>.</string>
+    <string name="sid_thank_you_for_purchase">Thank you for your purchase! Enjoy the full version of minimalist phone.</string>
+    <string name="sid_theme_contrast_too_low">Contrast too low. Please choose another color.</string>
+    <string name="sid_time_format_24h">24h</string>
+    <string name="sid_time_format_am_pm">AM/PM</string>
+    <string name="sid_unhide_app">Unhide</string>
+    <string name="sid_uninstall">Uninstall</string>
+    <string name="sid_uninstall_minimalist_phone_btn">"Or
+
+ uninstall minimalist phone"</string>
+    <string name="sid_unset_launcher_btn">Choose another home screen</string>
+    <string name="sid_unset_launcher_description">If you want to come back to minimalist phone later, choose the first option.</string>
+    <string name="sid_unset_launcher_settings_item">Exit minimalist phone</string>
+    <string name="sid_unset_launcher_settings_question">Are you sure that you want to stop using minimalist phone?</string>
+    <string name="sid_usage_stats_intro">minimalist phone needs access to usage statistics for the in-app time reminder to be functional.</string>
+    <string name="sid_use_original_rename_app">Restore name</string>
+    <string name="sid_using_full_version">You are using the full version of this app.</string>
+    <string name="sid_wait_for_setup">Your experience is being prepared.</string>
+    <string name="sid_work_profile_label">work</string>
+    <string name="sid_x_hours_y_minutes">%1$d h %2$d m</string>
+    <string name="sid_x_minutes">%s min</string>
+    <string name="sid_yes">Yes</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="SAP_com.qqlabs.minimalistlauncher">"Android App Bundle repacked - Split APKs Packer - v6.9.0 by Kirlif'"</string>
+</resources>

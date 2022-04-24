@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fast_scroller_thumb" android:background="@drawable/thumb_circle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:elevation="@dimen/fast_scroller_thumb_elevation" android:stateListAnimator="@animator/fast_scroll_thumb" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:gravity="center" android:id="@id/fast_scroller_thumb_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/fast_scroller_thumb_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+    </FrameLayout>
+</merge>
