@@ -264,82 +264,11 @@
 .end method
 
 .method public final e()Z
-    .locals 7
+    .locals 1
 
-    .line 1
-    sget-object v0, Lb6/c;->d:Lb6/c$a;
+    const/4 v1, 0x1
 
-    .line 2
-    iget-object v1, p0, Landroidx/lifecycle/a;->n:Landroid/app/Application;
-
-    const-string v2, "getApplication()"
-
-    .line 3
-    invoke-static {v1, v2}, Lp2/n0;->g(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v0, v1}, Lb6/g;->a(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lb6/c;
-
-    invoke-virtual {v0}, Lb6/c;->g()J
-
-    move-result-wide v0
-
-    .line 4
-    sget-object v3, Lp6/c;->e:Lp6/c$a;
-
-    .line 5
-    iget-object v4, p0, Landroidx/lifecycle/a;->n:Landroid/app/Application;
-
-    .line 6
-    invoke-static {v4, v2}, Lp2/n0;->g(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v3, v4}, Lp6/c$a;->a(Landroid/content/Context;)Lp6/c;
-
-    move-result-object v2
-
-    .line 7
-    iget-object v3, v2, Lp6/c;->b:Ls5/b;
-
-    const/4 v4, 0x0
-
-    if-nez v3, :cond_0
-
-    move v3, v4
-
-    goto :goto_0
-
-    :cond_0
-    const-string v5, "FIRST_24H_FREE_APPS"
-
-    invoke-virtual {v3, v5}, Ls5/b;->a(Ljava/lang/String;)Z
-
-    move-result v3
-
-    .line 8
-    :goto_0
-    sget-object v5, Lp6/a;->a:Lp6/a$a;
-
-    iget-object v2, v2, Lp6/c;->a:Ljava/lang/String;
-
-    const-string v6, "getFirst24HFreeAppsActive() "
-
-    invoke-static {v3, v6, v5, v2}, Landroidx/appcompat/widget/l;->b(ZLjava/lang/String;Lp6/a$a;Ljava/lang/String;)V
-
-    const-wide/16 v5, 0x1
-
-    cmp-long v0, v0, v5
-
-    if-gez v0, :cond_1
-
-    if-eqz v3, :cond_1
-
-    const/4 v4, 0x1
-
-    :cond_1
-    return v4
+    return v1
 .end method
 
 .method public final f(Landroid/app/Activity;Lcom/android/billingclient/api/SkuDetails;)V
